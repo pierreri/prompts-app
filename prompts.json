@@ -1,0 +1,13 @@
+{
+   "version": 1,
+   "prompts": [
+     { "text": "Describe your ideal work environment", "category": "BUSINESS", "difficulty": "EASY" },
+     { "text": "Explain why teamwork matters", "category": "BUSINESS", "difficulty": "MEDIUM" }
+   ],
+   "tripleWords": [
+     { "word1": "team", "word2": "success", "word3": "meeting", "category": "BUSINESS", "difficulty": "EASY" }
+   ],
+   "gibberishTopics": [
+     { "topic": "Technology and daily life", "category": "MIXED", "difficulty": "MEDIUM" }
+   ]
+ }
