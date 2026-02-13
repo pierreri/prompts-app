@@ -1,5 +1,5 @@
 {
-  "version": 20260213,
+  "version": 20260214,
   "prompts": [
     {
       "text": "Describe your ideal work environment",
@@ -1359,6 +1359,146 @@
     {
       "text": "Deliver a crisp conclusion after presenting multiple competing points",
       "category": "CLARITY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Going to the gym is like...",
+      "category": "ANALOGY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Riding a motorcycle is like...",
+      "category": "ANALOGY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Learning to cook is like...",
+      "category": "ANALOGY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Saving money is like...",
+      "category": "ANALOGY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Reading every day is like...",
+      "category": "ANALOGY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Starting a new job is like...",
+      "category": "ANALOGY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Running a marathon is like...",
+      "category": "ANALOGY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Building a morning routine is like...",
+      "category": "ANALOGY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Learning a language is like...",
+      "category": "ANALOGY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Working in a team is like...",
+      "category": "ANALOGY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Managing your attention is like...",
+      "category": "ANALOGY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Public speaking under pressure is like...",
+      "category": "ANALOGY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Building trust with a new team is like...",
+      "category": "ANALOGY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Recovering from a setback is like...",
+      "category": "ANALOGY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Delegation in leadership is like...",
+      "category": "ANALOGY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Improving communication in a company is like...",
+      "category": "ANALOGY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Personal branding is like...",
+      "category": "ANALOGY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Negotiation is like...",
+      "category": "ANALOGY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Developing discipline is like...",
+      "category": "ANALOGY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Adapting to rapid change is like...",
+      "category": "ANALOGY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Technical debt in a product is like...",
+      "category": "ANALOGY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Compounding growth is like...",
+      "category": "ANALOGY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Market timing is like...",
+      "category": "ANALOGY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Cognitive bias in decision-making is like...",
+      "category": "ANALOGY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Systemic risk in an organization is like...",
+      "category": "ANALOGY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Opportunity cost in career decisions is like...",
+      "category": "ANALOGY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Building antifragility is like...",
+      "category": "ANALOGY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Organizational culture drift is like...",
+      "category": "ANALOGY",
       "difficulty": "HARD"
     }
   ],
