@@ -1,428 +1,2603 @@
 {
-  "version": 6,
+  "version": 20260213,
   "prompts": [
-    { "text": "Explain why teamwork is important", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Talk about a skill you want to develop", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Describe your morning routine", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Explain what makes a good leader", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Talk about the importance of communication", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Describe a successful project you completed", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Explain how you handle deadlines", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Talk about your professional goals", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Describe what motivates you at work", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Explain the value of feedback", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Talk about work-life balance", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Describe a tool you use daily", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Explain how to prioritize tasks", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Talk about professional development", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Describe your ideal team", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Explain why meetings matter", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Talk about customer service", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Describe a workplace challenge", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Explain time management tips", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Talk about networking", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Describe a mentor's impact", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Explain delegation", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Talk about setting goals", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Describe organizational skills", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Explain problem-solving approaches", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Talk about workplace culture", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Describe collaboration tools", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Explain productivity habits", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Talk about career planning", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Analyze the impact of remote work on productivity", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss strategies for managing a diverse team", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Explain how to navigate organizational change", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Present a case for investing in employee training", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Describe how to build strategic partnerships", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss the role of innovation in business growth", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Explain conflict resolution in the workplace", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Present strategies for customer retention", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Describe effective performance review processes", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss the importance of company values", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Explain how to foster creativity in teams", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Present ideas for improving efficiency", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Describe crisis management approaches", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss data-driven decision making", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Explain stakeholder management", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Present a business improvement proposal", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Describe change management strategies", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss competitive analysis methods", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Explain project management methodologies", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Present ideas for team building", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Describe market research importance", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss quality assurance processes", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Explain risk assessment strategies", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Present vendor management approaches", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Describe budget planning methods", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss employee engagement strategies", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Explain operational excellence", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Present supply chain optimization ideas", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Describe talent acquisition strategies", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss digital transformation benefits", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Present a comprehensive digital transformation strategy for a traditional manufacturing company", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Defend a controversial business decision to skeptical board members", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Explain complex financial projections to non-financial stakeholders", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Navigate a hypothetical merger negotiation with competing interests", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Present a turnaround strategy for a struggling business unit", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Explain regulatory compliance requirements to resistant teams", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Defend budget cuts while maintaining team morale", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Present an international expansion strategy with cultural considerations", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Navigate ethical dilemmas in business decision-making", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Explain artificial intelligence implementation to traditional executives", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Present a sustainability initiative with ROI justification", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Defend outsourcing decisions to concerned employees", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Navigate complex stakeholder relationships in a major project", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Present restructuring plans to affected departments", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Explain cybersecurity risks to non-technical leadership", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Defend premium pricing strategy in a competitive market", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Navigate intellectual property disputes", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Present disruptive innovation to resistant industry leaders", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Explain complex legal implications to business teams", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Defend market entry strategy in emerging economies", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Describe your favorite hobby", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about your favorite meal", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Describe a place you'd like to visit", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about your favorite season", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Describe a fun weekend activity", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about a book you enjoyed", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Describe your ideal vacation", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about your favorite music", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Describe a childhood memory", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about your pets or animals you like", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Describe your favorite movie", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about a sport you enjoy", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Describe your dream home", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about your favorite holiday", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Describe a talent you have", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about your favorite game", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Describe a memorable trip", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about your cooking skills", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Describe your morning coffee routine", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about your favorite TV show", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Describe a local attraction", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about your exercise habits", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Describe your reading preferences", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about your social media use", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Describe a family tradition", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about your fashion style", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Describe your dream car", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about your sleep habits", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Describe your commute", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Talk about your favorite snack", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Debate whether social media has improved or harmed society", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Explain how you would plan the perfect road trip", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss the pros and cons of living in a big city", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Describe how you handle stress and anxiety", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Explain your philosophy on friendship", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss the impact of technology on relationships", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Describe how you approach making major life decisions", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Explain what success means to you personally", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss generational differences in values", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Describe how you balance multiple interests", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Explain your approach to learning new skills", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss the value of travel experiences", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Describe how you maintain long-distance friendships", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Explain your views on minimalism", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss the importance of hobbies", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Describe how you recharge after a busy week", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Explain your approach to personal finance", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss the role of traditions in modern life", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Describe how you stay informed about current events", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Explain your perspective on work satisfaction", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss the impact of streaming services on entertainment", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Describe how you approach goal setting", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Explain your views on community involvement", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Discuss the benefits of outdoor activities", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Describe how you curate your living space", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Argue for or against the idea that technology has made us less connected", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Defend an unpopular opinion you hold about a common practice", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Explain a complex philosophical concept to a curious friend", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Debate whether happiness is a choice or a circumstance", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Discuss the ethical implications of artificial intelligence in daily life", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Explain how your values have evolved over the past decade", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Debate the balance between privacy and security in modern society", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Discuss whether social movements create lasting change", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Explain the psychological impact of constant connectivity", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Debate whether success requires sacrifice of personal time", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Discuss the ethics of influencer culture", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Explain generational wealth and its societal impact", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Debate whether traditional education is still relevant", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Discuss the philosophy behind minimalist living", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Explain the concept of emotional intelligence to a skeptic", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Debate whether cancel culture is beneficial or harmful", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Discuss the intersection of art and commerce", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Explain the psychology of habits and behavior change", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Debate whether we have free will", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Discuss the future of human connection in a digital age", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Tell me about yourself", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "Why are you interested in this position?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "What are your greatest strengths?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "Where do you see yourself in 5 years?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "Why should we hire you?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "What do you know about our company?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "What is your greatest weakness?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "Why did you leave your last job?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "What are your salary expectations?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "When can you start?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "Do you have any questions for us?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "Describe your ideal work environment", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "What motivates you?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "How did you hear about this position?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "What makes you unique?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "Describe your work style", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "What are you passionate about?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "How do you handle stress?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "What are your hobbies outside of work?", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "Describe a typical day in your current role", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "Describe a challenge you overcame at work", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Tell me about a time you demonstrated leadership", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "How do you handle conflict with coworkers?", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Describe a time you failed and what you learned", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Tell me about a time you went above and beyond", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "How do you prioritize competing deadlines?", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Describe a situation where you had to adapt quickly", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Tell me about a time you disagreed with your manager", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "How do you handle constructive criticism?", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Describe a project you're most proud of", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Tell me about a time you had to learn something quickly", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "How do you stay organized and manage your time?", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Describe a situation where you had to persuade someone", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Tell me about a time you worked with a difficult team member", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "How do you approach problem-solving?", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Describe a time you took initiative", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Tell me about a goal you achieved and how", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "How do you handle ambiguity in your work?", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Describe a time you received tough feedback", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Tell me about a time you mentored someone", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Walk me through how you would handle a situation where your team completely disagrees with leadership's direction", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "Describe a time when you had to deliver bad news to a stakeholder", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "Tell me about a time you had to make an unpopular decision", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "How would you handle discovering a colleague was acting unethically?", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "Describe a situation where you had to influence without authority", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "Walk me through your approach to managing a project that's failing", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "Tell me about a time you had to balance competing priorities from multiple stakeholders", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "How would you handle inheriting a team with low morale?", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "Describe a time when you had to challenge the status quo", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "Tell me about a complex problem you solved with limited resources", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "How do you approach building relationships with skeptical stakeholders?", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "Describe a situation where you had to navigate organizational politics", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "Introduce yourself in 60 seconds", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Describe your typical day", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Talk about something you're grateful for", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Describe a recent accomplishment", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Talk about your hometown", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Describe something you're looking forward to", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Talk about a person who inspires you", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Describe your favorite way to relax", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Talk about a lesson you've learned", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Describe your ideal day off", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Talk about something that makes you unique", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Describe a goal you're working toward", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Talk about your favorite memory", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Describe something you'd like to try", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Talk about what makes you happy", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Explain how you would solve a community problem", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Discuss the most important invention of the last century", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Describe how you would spend a million dollars", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Explain your approach to overcoming failure", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Discuss the qualities of effective communication", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Describe a time you changed your mind about something", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Explain how to build trust with others", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Discuss the importance of continuous learning", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Describe your ideal future in 10 years", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Explain how you adapt to new situations", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Discuss the role of creativity in problem-solving", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Describe how technology has changed your life", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Explain what leadership means to you", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Discuss balancing ambition with contentment", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Describe your approach to handling uncertainty", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Present a Ted Talk style speech on a topic of your choice", "category": "MIXED", "difficulty": "HARD" },
-    { "text": "Explain a controversial topic from multiple perspectives", "category": "MIXED", "difficulty": "HARD" },
-    { "text": "Deliver a motivational speech to a discouraged audience", "category": "MIXED", "difficulty": "HARD" },
-    { "text": "Navigate a complex ethical dilemma with no clear right answer", "category": "MIXED", "difficulty": "HARD" },
-    { "text": "Present an innovative solution to a global challenge", "category": "MIXED", "difficulty": "HARD" },
-    { "text": "Explain a complex system to a complete beginner", "category": "MIXED", "difficulty": "HARD" },
-    { "text": "Deliver constructive criticism in a supportive way", "category": "MIXED", "difficulty": "HARD" },
-    { "text": "Present a vision for the future that inspires action", "category": "MIXED", "difficulty": "HARD" },
-    { "text": "Navigate a heated discussion with diplomacy", "category": "MIXED", "difficulty": "HARD" },
-    { "text": "Explain your core values and how they guide your decisions", "category": "MIXED", "difficulty": "HARD" }
+    {
+      "text": "Describe your ideal work environment",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain why teamwork is important",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about a skill you want to develop",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your morning routine",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain what makes a good leader",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about the importance of communication",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a successful project you completed",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain how you handle deadlines",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your professional goals",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe what motivates you at work",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain the value of feedback",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about work-life balance",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a tool you use daily",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain how to prioritize tasks",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about professional development",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your ideal team",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain why meetings matter",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about customer service",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a workplace challenge",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain time management tips",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about networking",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a mentor's impact",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain delegation",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about setting goals",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe organizational skills",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain problem-solving approaches",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about workplace culture",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe collaboration tools",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain productivity habits",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about career planning",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Analyze the impact of remote work on productivity",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss strategies for managing a diverse team",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain how to navigate organizational change",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Present a case for investing in employee training",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe how to build strategic partnerships",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss the role of innovation in business growth",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain conflict resolution in the workplace",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Present strategies for customer retention",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe effective performance review processes",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss the importance of company values",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain how to foster creativity in teams",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Present ideas for improving efficiency",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe crisis management approaches",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss data-driven decision making",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain stakeholder management",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Present a business improvement proposal",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe change management strategies",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss competitive analysis methods",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain project management methodologies",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Present ideas for team building",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe market research importance",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss quality assurance processes",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain risk assessment strategies",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Present vendor management approaches",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe budget planning methods",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss employee engagement strategies",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain operational excellence",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Present supply chain optimization ideas",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe talent acquisition strategies",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss digital transformation benefits",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Present a comprehensive digital transformation strategy for a traditional manufacturing company",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Defend a controversial business decision to skeptical board members",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain complex financial projections to non-financial stakeholders",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Navigate a hypothetical merger negotiation with competing interests",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Present a turnaround strategy for a struggling business unit",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain regulatory compliance requirements to resistant teams",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Defend budget cuts while maintaining team morale",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Present an international expansion strategy with cultural considerations",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Navigate ethical dilemmas in business decision-making",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain artificial intelligence implementation to traditional executives",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Present a sustainability initiative with ROI justification",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Defend outsourcing decisions to concerned employees",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Navigate complex stakeholder relationships in a major project",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Present restructuring plans to affected departments",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain cybersecurity risks to non-technical leadership",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Defend premium pricing strategy in a competitive market",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Navigate intellectual property disputes",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Present disruptive innovation to resistant industry leaders",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain complex legal implications to business teams",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Defend market entry strategy in emerging economies",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Describe your favorite hobby",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your favorite meal",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a place you'd like to visit",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your favorite season",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a fun weekend activity",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about a book you enjoyed",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your ideal vacation",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your favorite music",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a childhood memory",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your pets or animals you like",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your favorite movie",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about a sport you enjoy",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your dream home",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your favorite holiday",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a talent you have",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your favorite game",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a memorable trip",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your cooking skills",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your morning coffee routine",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your favorite TV show",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a local attraction",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your exercise habits",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your reading preferences",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your social media use",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a family tradition",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your fashion style",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your dream car",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your sleep habits",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your commute",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your favorite snack",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Debate whether social media has improved or harmed society",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain how you would plan the perfect road trip",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss the pros and cons of living in a big city",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe how you handle stress and anxiety",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain your philosophy on friendship",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss the impact of technology on relationships",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe how you approach making major life decisions",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain what success means to you personally",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss generational differences in values",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe how you balance multiple interests",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain your approach to learning new skills",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss the value of travel experiences",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe how you maintain long-distance friendships",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain your views on minimalism",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss the importance of hobbies",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe how you recharge after a busy week",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain your approach to personal finance",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss the role of traditions in modern life",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe how you stay informed about current events",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain your perspective on work satisfaction",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss the impact of streaming services on entertainment",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe how you approach goal setting",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain your views on community involvement",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss the benefits of outdoor activities",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe how you curate your living space",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Argue for or against the idea that technology has made us less connected",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Defend an unpopular opinion you hold about a common practice",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain a complex philosophical concept to a curious friend",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Debate whether happiness is a choice or a circumstance",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Discuss the ethical implications of artificial intelligence in daily life",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain how your values have evolved over the past decade",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Debate the balance between privacy and security in modern society",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Discuss whether social movements create lasting change",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain the psychological impact of constant connectivity",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Debate whether success requires sacrifice of personal time",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Discuss the ethics of influencer culture",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain generational wealth and its societal impact",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Debate whether traditional education is still relevant",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Discuss the philosophy behind minimalist living",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain the concept of emotional intelligence to a skeptic",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Debate whether cancel culture is beneficial or harmful",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Discuss the intersection of art and commerce",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain the psychology of habits and behavior change",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Debate whether we have free will",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Discuss the future of human connection in a digital age",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Tell me about yourself",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Why are you interested in this position?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "What are your greatest strengths?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Where do you see yourself in 5 years?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Why should we hire you?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "What do you know about our company?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "What is your greatest weakness?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Why did you leave your last job?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "What are your salary expectations?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "When can you start?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Do you have any questions for us?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your ideal work environment",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "What motivates you?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "How did you hear about this position?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "What makes you unique?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your work style",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "What are you passionate about?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "How do you handle stress?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "What are your hobbies outside of work?",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a typical day in your current role",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a challenge you overcame at work",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Tell me about a time you demonstrated leadership",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "How do you handle conflict with coworkers?",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe a time you failed and what you learned",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Tell me about a time you went above and beyond",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "How do you prioritize competing deadlines?",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe a situation where you had to adapt quickly",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Tell me about a time you disagreed with your manager",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "How do you handle constructive criticism?",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe a project you're most proud of",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Tell me about a time you had to learn something quickly",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "How do you stay organized and manage your time?",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe a situation where you had to persuade someone",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Tell me about a time you worked with a difficult team member",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "How do you approach problem-solving?",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe a time you took initiative",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Tell me about a goal you achieved and how",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "How do you handle ambiguity in your work?",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe a time you received tough feedback",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Tell me about a time you mentored someone",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Walk me through how you would handle a situation where your team completely disagrees with leadership's direction",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Describe a time when you had to deliver bad news to a stakeholder",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Tell me about a time you had to make an unpopular decision",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "How would you handle discovering a colleague was acting unethically?",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Describe a situation where you had to influence without authority",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Walk me through your approach to managing a project that's failing",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Tell me about a time you had to balance competing priorities from multiple stakeholders",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "How would you handle inheriting a team with low morale?",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Describe a time when you had to challenge the status quo",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Tell me about a complex problem you solved with limited resources",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "How do you approach building relationships with skeptical stakeholders?",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Describe a situation where you had to navigate organizational politics",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Introduce yourself in 60 seconds",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your typical day",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about something you're grateful for",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a recent accomplishment",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your hometown",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe something you're looking forward to",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about a person who inspires you",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your favorite way to relax",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about a lesson you've learned",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your ideal day off",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about something that makes you unique",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe a goal you're working toward",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about your favorite memory",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe something you'd like to try",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Talk about what makes you happy",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain how you would solve a community problem",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss the most important invention of the last century",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe how you would spend a million dollars",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain your approach to overcoming failure",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss the qualities of effective communication",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe a time you changed your mind about something",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain how to build trust with others",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss the importance of continuous learning",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe your ideal future in 10 years",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain how you adapt to new situations",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss the role of creativity in problem-solving",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe how technology has changed your life",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain what leadership means to you",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Discuss balancing ambition with contentment",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe your approach to handling uncertainty",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Present a Ted Talk style speech on a topic of your choice",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain a controversial topic from multiple perspectives",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Deliver a motivational speech to a discouraged audience",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Navigate a complex ethical dilemma with no clear right answer",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Present an innovative solution to a global challenge",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain a complex system to a complete beginner",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Deliver constructive criticism in a supportive way",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Present a vision for the future that inspires action",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Navigate a heated discussion with diplomacy",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain your core values and how they guide your decisions",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain your day using one main point and one example",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your favorite habit in three clear steps",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Share one simple lesson you learned this week",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain why sleep quality matters to you",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe one challenge and the exact solution you used",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain your ideal morning routine in clear order",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Share one goal and why it matters right now",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe one conversation that changed your mind",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain one thing you want to improve this month",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Describe your favorite way to reset after stress",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Explain a complex idea using Point -> Why -> Example -> Takeaway",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe a decision you made and defend it with clear reasoning",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain how to solve a common team communication issue",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Share a mistake you made and the principle you learned",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain your approach to setting priorities under pressure",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe a process you improved and its measurable impact",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain how to give feedback without creating defensiveness",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe a disagreement and how you moved it toward alignment",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Explain how you simplify technical information for non-experts",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Describe the clearest argument you can make for a personal value",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Take a messy idea and turn it into a 60-second structured argument",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Defend a nuanced position while acknowledging strong counterarguments",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Explain a controversial topic clearly without oversimplifying it",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Turn an emotional story into a concise, evidence-based message",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Deliver a crisp conclusion after presenting multiple competing points",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    }
   ],
   "tripleWords": [
-    { "word1": "team", "word2": "success", "word3": "meeting", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "word1": "email", "word2": "deadline", "word3": "coffee", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "word1": "client", "word2": "phone", "word3": "report", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "word1": "office", "word2": "lunch", "word3": "computer", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "word1": "goal", "word2": "plan", "word3": "result", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "word1": "manager", "word2": "project", "word3": "budget", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "word1": "presentation", "word2": "data", "word3": "chart", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "word1": "schedule", "word2": "calendar", "word3": "reminder", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "word1": "contract", "word2": "signature", "word3": "document", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "word1": "interview", "word2": "resume", "word3": "candidate", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "word1": "innovation", "word2": "disruption", "word3": "market", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "word1": "stakeholder", "word2": "synergy", "word3": "pipeline", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "word1": "analytics", "word2": "strategy", "word3": "optimization", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "word1": "acquisition", "word2": "merger", "word3": "valuation", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "word1": "compliance", "word2": "regulation", "word3": "audit", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "word1": "scalability", "word2": "efficiency", "word3": "automation", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "word1": "benchmark", "word2": "performance", "word3": "metrics", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "word1": "leverage", "word2": "capital", "word3": "investment", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "word1": "sustainability", "word2": "governance", "word3": "ethics", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "word1": "transformation", "word2": "agility", "word3": "resilience", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "word1": "blockchain", "word2": "quantum", "word3": "sovereignty", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "word1": "arbitrage", "word2": "derivative", "word3": "hedge", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "word1": "disintermediation", "word2": "tokenization", "word3": "decentralization", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "word1": "antitrust", "word2": "monopoly", "word3": "cartel", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "word1": "fiduciary", "word2": "indemnification", "word3": "liability", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "word1": "pizza", "word2": "movie", "word3": "blanket", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "word1": "beach", "word2": "sunset", "word3": "ice cream", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "word1": "garden", "word2": "butterfly", "word3": "lemonade", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "word1": "puppy", "word2": "park", "word3": "frisbee", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "word1": "birthday", "word2": "cake", "word3": "balloon", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "word1": "rain", "word2": "umbrella", "word3": "puddle", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "word1": "music", "word2": "dance", "word3": "party", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "word1": "book", "word2": "couch", "word3": "tea", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "word1": "camping", "word2": "stars", "word3": "marshmallow", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "word1": "snow", "word2": "mittens", "word3": "cocoa", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "word1": "nostalgia", "word2": "photograph", "word3": "memory", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "word1": "adventure", "word2": "passport", "word3": "discovery", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "word1": "meditation", "word2": "sunrise", "word3": "gratitude", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "word1": "friendship", "word2": "distance", "word3": "connection", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "word1": "creativity", "word2": "canvas", "word3": "inspiration", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "word1": "tradition", "word2": "family", "word3": "celebration", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "word1": "mystery", "word2": "midnight", "word3": "secret", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "word1": "journey", "word2": "crossroads", "word3": "destination", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "word1": "vintage", "word2": "treasure", "word3": "antique", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "word1": "harmony", "word2": "nature", "word3": "balance", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "word1": "existentialism", "word2": "serendipity", "word3": "paradox", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "word1": "ephemeral", "word2": "eternal", "word3": "transcendence", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "word1": "melancholy", "word2": "euphoria", "word3": "catharsis", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "word1": "consciousness", "word2": "reality", "word3": "perception", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "word1": "synchronicity", "word2": "fate", "word3": "coincidence", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "word1": "resume", "word2": "interview", "word3": "job", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "word1": "skills", "word2": "experience", "word3": "qualifications", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "word1": "team", "word2": "collaboration", "word3": "communication", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "word1": "goals", "word2": "growth", "word3": "career", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "word1": "strengths", "word2": "achievements", "word3": "success", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "word1": "company", "word2": "culture", "word3": "values", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "word1": "schedule", "word2": "availability", "word3": "flexibility", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "word1": "salary", "word2": "benefits", "word3": "compensation", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "word1": "training", "word2": "development", "word3": "learning", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "word1": "feedback", "word2": "improvement", "word3": "performance", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "word1": "leadership", "word2": "initiative", "word3": "accountability", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "word1": "challenge", "word2": "solution", "word3": "outcome", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "word1": "conflict", "word2": "resolution", "word3": "compromise", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "word1": "deadline", "word2": "pressure", "word3": "delivery", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "word1": "stakeholder", "word2": "expectation", "word3": "alignment", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "word1": "strategy", "word2": "execution", "word3": "results", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "word1": "mentor", "word2": "guidance", "word3": "growth", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "word1": "innovation", "word2": "creativity", "word3": "impact", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "word1": "prioritization", "word2": "efficiency", "word3": "productivity", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "word1": "adaptation", "word2": "change", "word3": "resilience", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "word1": "transformation", "word2": "influence", "word3": "advocacy", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "word1": "ambiguity", "word2": "uncertainty", "word3": "decisiveness", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "word1": "ethics", "word2": "integrity", "word3": "transparency", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "word1": "negotiation", "word2": "persuasion", "word3": "consensus", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "word1": "crisis", "word2": "leadership", "word3": "recovery", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "word1": "phone", "word2": "garden", "word3": "breakfast", "category": "MIXED", "difficulty": "EASY" },
-    { "word1": "computer", "word2": "sunset", "word3": "gratitude", "category": "MIXED", "difficulty": "EASY" },
-    { "word1": "meeting", "word2": "pizza", "word3": "adventure", "category": "MIXED", "difficulty": "EASY" },
-    { "word1": "deadline", "word2": "vacation", "word3": "smile", "category": "MIXED", "difficulty": "EASY" },
-    { "word1": "email", "word2": "mountain", "word3": "friendship", "category": "MIXED", "difficulty": "EASY" },
-    { "word1": "algorithm", "word2": "empathy", "word3": "tradition", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "word1": "spreadsheet", "word2": "wilderness", "word3": "philosophy", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "word1": "conference", "word2": "meditation", "word3": "innovation", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "word1": "budget", "word2": "creativity", "word3": "legacy", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "word1": "analytics", "word2": "intuition", "word3": "heritage", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "word1": "cryptocurrency", "word2": "mindfulness", "word3": "democracy", "category": "MIXED", "difficulty": "HARD" },
-    { "word1": "automation", "word2": "authenticity", "word3": "transcendence", "category": "MIXED", "difficulty": "HARD" },
-    { "word1": "globalization", "word2": "identity", "word3": "sustainability", "category": "MIXED", "difficulty": "HARD" }
+    {
+      "word1": "team",
+      "word2": "success",
+      "word3": "meeting",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "email",
+      "word2": "deadline",
+      "word3": "coffee",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "client",
+      "word2": "phone",
+      "word3": "report",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "office",
+      "word2": "lunch",
+      "word3": "computer",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "goal",
+      "word2": "plan",
+      "word3": "result",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "manager",
+      "word2": "project",
+      "word3": "budget",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "presentation",
+      "word2": "data",
+      "word3": "chart",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "schedule",
+      "word2": "calendar",
+      "word3": "reminder",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "contract",
+      "word2": "signature",
+      "word3": "document",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "interview",
+      "word2": "resume",
+      "word3": "candidate",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "innovation",
+      "word2": "disruption",
+      "word3": "market",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "stakeholder",
+      "word2": "synergy",
+      "word3": "pipeline",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "analytics",
+      "word2": "strategy",
+      "word3": "optimization",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "acquisition",
+      "word2": "merger",
+      "word3": "valuation",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "compliance",
+      "word2": "regulation",
+      "word3": "audit",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "scalability",
+      "word2": "efficiency",
+      "word3": "automation",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "benchmark",
+      "word2": "performance",
+      "word3": "metrics",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "leverage",
+      "word2": "capital",
+      "word3": "investment",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "sustainability",
+      "word2": "governance",
+      "word3": "ethics",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "transformation",
+      "word2": "agility",
+      "word3": "resilience",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "blockchain",
+      "word2": "quantum",
+      "word3": "sovereignty",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "arbitrage",
+      "word2": "derivative",
+      "word3": "hedge",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "disintermediation",
+      "word2": "tokenization",
+      "word3": "decentralization",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "antitrust",
+      "word2": "monopoly",
+      "word3": "cartel",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "fiduciary",
+      "word2": "indemnification",
+      "word3": "liability",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "pizza",
+      "word2": "movie",
+      "word3": "blanket",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "beach",
+      "word2": "sunset",
+      "word3": "ice cream",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "garden",
+      "word2": "butterfly",
+      "word3": "lemonade",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "puppy",
+      "word2": "park",
+      "word3": "frisbee",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "birthday",
+      "word2": "cake",
+      "word3": "balloon",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "rain",
+      "word2": "umbrella",
+      "word3": "puddle",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "music",
+      "word2": "dance",
+      "word3": "party",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "book",
+      "word2": "couch",
+      "word3": "tea",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "camping",
+      "word2": "stars",
+      "word3": "marshmallow",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "snow",
+      "word2": "mittens",
+      "word3": "cocoa",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "nostalgia",
+      "word2": "photograph",
+      "word3": "memory",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "adventure",
+      "word2": "passport",
+      "word3": "discovery",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "meditation",
+      "word2": "sunrise",
+      "word3": "gratitude",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "friendship",
+      "word2": "distance",
+      "word3": "connection",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "creativity",
+      "word2": "canvas",
+      "word3": "inspiration",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "tradition",
+      "word2": "family",
+      "word3": "celebration",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "mystery",
+      "word2": "midnight",
+      "word3": "secret",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "journey",
+      "word2": "crossroads",
+      "word3": "destination",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "vintage",
+      "word2": "treasure",
+      "word3": "antique",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "harmony",
+      "word2": "nature",
+      "word3": "balance",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "existentialism",
+      "word2": "serendipity",
+      "word3": "paradox",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "ephemeral",
+      "word2": "eternal",
+      "word3": "transcendence",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "melancholy",
+      "word2": "euphoria",
+      "word3": "catharsis",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "consciousness",
+      "word2": "reality",
+      "word3": "perception",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "synchronicity",
+      "word2": "fate",
+      "word3": "coincidence",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "resume",
+      "word2": "interview",
+      "word3": "job",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "skills",
+      "word2": "experience",
+      "word3": "qualifications",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "team",
+      "word2": "collaboration",
+      "word3": "communication",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "goals",
+      "word2": "growth",
+      "word3": "career",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "strengths",
+      "word2": "achievements",
+      "word3": "success",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "company",
+      "word2": "culture",
+      "word3": "values",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "schedule",
+      "word2": "availability",
+      "word3": "flexibility",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "salary",
+      "word2": "benefits",
+      "word3": "compensation",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "training",
+      "word2": "development",
+      "word3": "learning",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "feedback",
+      "word2": "improvement",
+      "word3": "performance",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "leadership",
+      "word2": "initiative",
+      "word3": "accountability",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "challenge",
+      "word2": "solution",
+      "word3": "outcome",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "conflict",
+      "word2": "resolution",
+      "word3": "compromise",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "deadline",
+      "word2": "pressure",
+      "word3": "delivery",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "stakeholder",
+      "word2": "expectation",
+      "word3": "alignment",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "strategy",
+      "word2": "execution",
+      "word3": "results",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "mentor",
+      "word2": "guidance",
+      "word3": "growth",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "innovation",
+      "word2": "creativity",
+      "word3": "impact",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "prioritization",
+      "word2": "efficiency",
+      "word3": "productivity",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "adaptation",
+      "word2": "change",
+      "word3": "resilience",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "transformation",
+      "word2": "influence",
+      "word3": "advocacy",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "ambiguity",
+      "word2": "uncertainty",
+      "word3": "decisiveness",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "ethics",
+      "word2": "integrity",
+      "word3": "transparency",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "negotiation",
+      "word2": "persuasion",
+      "word3": "consensus",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "crisis",
+      "word2": "leadership",
+      "word3": "recovery",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "phone",
+      "word2": "garden",
+      "word3": "breakfast",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "computer",
+      "word2": "sunset",
+      "word3": "gratitude",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "meeting",
+      "word2": "pizza",
+      "word3": "adventure",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "deadline",
+      "word2": "vacation",
+      "word3": "smile",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "email",
+      "word2": "mountain",
+      "word3": "friendship",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "algorithm",
+      "word2": "empathy",
+      "word3": "tradition",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "spreadsheet",
+      "word2": "wilderness",
+      "word3": "philosophy",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "conference",
+      "word2": "meditation",
+      "word3": "innovation",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "budget",
+      "word2": "creativity",
+      "word3": "legacy",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "analytics",
+      "word2": "intuition",
+      "word3": "heritage",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "cryptocurrency",
+      "word2": "mindfulness",
+      "word3": "democracy",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "automation",
+      "word2": "authenticity",
+      "word3": "transcendence",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "globalization",
+      "word2": "identity",
+      "word3": "sustainability",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "point",
+      "word2": "reason",
+      "word3": "example",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "message",
+      "word2": "listener",
+      "word3": "clarity",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "idea",
+      "word2": "structure",
+      "word3": "flow",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "focus",
+      "word2": "summary",
+      "word3": "takeaway",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "topic",
+      "word2": "purpose",
+      "word3": "confidence",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "word1": "premise",
+      "word2": "evidence",
+      "word3": "conclusion",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "context",
+      "word2": "problem",
+      "word3": "solution",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "signal",
+      "word2": "transition",
+      "word3": "coherence",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "argument",
+      "word2": "counterpoint",
+      "word3": "synthesis",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "insight",
+      "word2": "impact",
+      "word3": "action",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "word1": "ambiguity",
+      "word2": "precision",
+      "word3": "tradeoff",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "abstraction",
+      "word2": "example",
+      "word3": "retention",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    },
+    {
+      "word1": "nuance",
+      "word2": "contrast",
+      "word3": "resolution",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    }
   ],
   "gibberishTopics": [
-    { "topic": "The future of remote work", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "topic": "Building effective teams", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "topic": "Customer experience strategies", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "topic": "Innovation in business", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "topic": "Leadership development", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "topic": "Digital marketing trends", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "topic": "Sustainable business practices", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "topic": "Employee engagement", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "topic": "Strategic planning", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "topic": "Change management", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "topic": "The perfect weekend", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "topic": "Childhood memories", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "topic": "Travel adventures", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "topic": "Favorite hobbies", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "topic": "Food and cooking", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "topic": "Music and entertainment", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "topic": "Sports and fitness", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "topic": "Nature and outdoors", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "topic": "Books and reading", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "topic": "Technology in daily life", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "topic": "Your career journey", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "topic": "Workplace achievements", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "topic": "Professional relationships", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "topic": "Handling difficult situations", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "topic": "Leadership experiences", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "topic": "Career aspirations", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "topic": "Work-life integration", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "topic": "Professional development", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "topic": "Team dynamics", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "topic": "Navigating change", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "topic": "Personal growth", "category": "MIXED", "difficulty": "EASY" },
-    { "topic": "Life lessons learned", "category": "MIXED", "difficulty": "EASY" },
-    { "topic": "Future predictions", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "topic": "Cultural experiences", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "topic": "Community involvement", "category": "MIXED", "difficulty": "HARD" }
+    {
+      "topic": "The future of remote work",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Building effective teams",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Customer experience strategies",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Innovation in business",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Leadership development",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "topic": "Digital marketing trends",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "topic": "Sustainable business practices",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "topic": "Employee engagement",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "topic": "Strategic planning",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "topic": "Change management",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "topic": "The perfect weekend",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Childhood memories",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Travel adventures",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Favorite hobbies",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Food and cooking",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "topic": "Music and entertainment",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "topic": "Sports and fitness",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "topic": "Nature and outdoors",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "topic": "Books and reading",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "topic": "Technology in daily life",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "topic": "Your career journey",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Workplace achievements",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Professional relationships",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Handling difficult situations",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Leadership experiences",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "topic": "Career aspirations",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "topic": "Work-life integration",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "topic": "Professional development",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "topic": "Team dynamics",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "topic": "Navigating change",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "topic": "Personal growth",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Life lessons learned",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Future predictions",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "topic": "Cultural experiences",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "topic": "Community involvement",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "topic": "Explaining an idea clearly in one minute",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Turning a vague thought into one strong sentence",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "How to guide a listener through your reasoning",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Making your point before adding details",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "topic": "Using examples that make abstract ideas concrete",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "topic": "How to recover when your explanation feels messy",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "topic": "Structuring thoughts under time pressure",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "topic": "Balancing brevity with depth",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    },
+    {
+      "topic": "Ending with a memorable takeaway",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    },
+    {
+      "topic": "Adapting your message to different audiences",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    }
   ],
   "debatePrompts": [
-    { "text": "Team meetings should be shorter even if fewer topics are covered.", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Managers should always share the reasoning behind major decisions.", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Companies should prioritize internal promotions over external hires.", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Remote-first work should be the default for knowledge teams.", "category": "PRESENTATION", "difficulty": "EASY" },
-    { "text": "Managers should prioritize potential over experience when promoting.", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Performance reviews should be quarterly instead of annual.", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Every company should publish salary bands for each role.", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Customer satisfaction should matter more than short-term profit.", "category": "PRESENTATION", "difficulty": "MEDIUM" },
-    { "text": "Companies should publish salary bands for all roles globally.", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Leadership should accept slower growth to avoid layoffs.", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "Employee monitoring software can be ethically justified.", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "AI should be allowed to make final hiring recommendations.", "category": "PRESENTATION", "difficulty": "HARD" },
-    { "text": "People should take at least one full day offline each week.", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Weeknight social plans are better than weekend plans.", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Owning fewer things leads to a happier life.", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Friends should always be honest even when truth is uncomfortable.", "category": "CONVERSATION", "difficulty": "EASY" },
-    { "text": "Living in a big city is better for long-term happiness than a small town.", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Social media does more good than harm for friendships.", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Couples should merge finances after moving in together.", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Parents should limit children to one extracurricular activity at a time.", "category": "CONVERSATION", "difficulty": "MEDIUM" },
-    { "text": "Personal privacy should be traded for safer public spaces.", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "People are morally obligated to discuss politics with friends.", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Cancel culture creates accountability more than fear.", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Online relationships can be as meaningful as in-person ones.", "category": "CONVERSATION", "difficulty": "HARD" },
-    { "text": "Candidates should always negotiate salary, even for entry-level roles.", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "Interviewers should share feedback with every candidate.", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "A strong portfolio should outweigh a formal degree in hiring.", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "Employees should disclose side projects to employers.", "category": "INTERVIEW", "difficulty": "EASY" },
-    { "text": "Cultural fit should matter more than technical skill in hiring.", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Job hopping every two years is a smart career strategy.", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Take-home assignments are fair in interview processes.", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Managers should prioritize output over hours worked.", "category": "INTERVIEW", "difficulty": "MEDIUM" },
-    { "text": "Employees should publicly challenge leadership decisions when they disagree.", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "Hiring managers should use AI screening before any human review.", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "Companies should allow complete pay transparency among coworkers.", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "A past ethical mistake should disqualify a candidate from leadership roles.", "category": "INTERVIEW", "difficulty": "HARD" },
-    { "text": "Schools should teach practical life skills before advanced theory.", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "Public transport should be free in major cities.", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "People should need a license before owning a pet.", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "News apps should limit daily breaking news alerts.", "category": "MIXED", "difficulty": "EASY" },
-    { "text": "AI tools should be required in most knowledge-work jobs.", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Universities should remove standardized test requirements permanently.", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Governments should reward low-carbon lifestyles with tax credits.", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Streaming services should have limits on autoplay by default.", "category": "MIXED", "difficulty": "MEDIUM" },
-    { "text": "Governments should regulate social media algorithms like public utilities.", "category": "MIXED", "difficulty": "HARD" },
-    { "text": "Universal basic income should replace most welfare programs.", "category": "MIXED", "difficulty": "HARD" },
-    { "text": "Facial recognition in public should be banned entirely.", "category": "MIXED", "difficulty": "HARD" },
-    { "text": "Nations should prioritize climate targets over short-term economic growth.", "category": "MIXED", "difficulty": "HARD" }
+    {
+      "text": "Team meetings should be shorter even if fewer topics are covered.",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Managers should always share the reasoning behind major decisions.",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Companies should prioritize internal promotions over external hires.",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Remote-first work should be the default for knowledge teams.",
+      "category": "PRESENTATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Managers should prioritize potential over experience when promoting.",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Performance reviews should be quarterly instead of annual.",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Every company should publish salary bands for each role.",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Customer satisfaction should matter more than short-term profit.",
+      "category": "PRESENTATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Companies should publish salary bands for all roles globally.",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Leadership should accept slower growth to avoid layoffs.",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Employee monitoring software can be ethically justified.",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "AI should be allowed to make final hiring recommendations.",
+      "category": "PRESENTATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "People should take at least one full day offline each week.",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Weeknight social plans are better than weekend plans.",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Owning fewer things leads to a happier life.",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Friends should always be honest even when truth is uncomfortable.",
+      "category": "CONVERSATION",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Living in a big city is better for long-term happiness than a small town.",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Social media does more good than harm for friendships.",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Couples should merge finances after moving in together.",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Parents should limit children to one extracurricular activity at a time.",
+      "category": "CONVERSATION",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Personal privacy should be traded for safer public spaces.",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "People are morally obligated to discuss politics with friends.",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Cancel culture creates accountability more than fear.",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Online relationships can be as meaningful as in-person ones.",
+      "category": "CONVERSATION",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Candidates should always negotiate salary, even for entry-level roles.",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Interviewers should share feedback with every candidate.",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "A strong portfolio should outweigh a formal degree in hiring.",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Employees should disclose side projects to employers.",
+      "category": "INTERVIEW",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Cultural fit should matter more than technical skill in hiring.",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Job hopping every two years is a smart career strategy.",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Take-home assignments are fair in interview processes.",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Managers should prioritize output over hours worked.",
+      "category": "INTERVIEW",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Employees should publicly challenge leadership decisions when they disagree.",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Hiring managers should use AI screening before any human review.",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Companies should allow complete pay transparency among coworkers.",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "A past ethical mistake should disqualify a candidate from leadership roles.",
+      "category": "INTERVIEW",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "A simple message is more persuasive than a detailed one.",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Speakers should state their main point in the first sentence.",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Examples are more effective than definitions when teaching an idea.",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "One clear takeaway matters more than covering every detail.",
+      "category": "CLARITY",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Strong communication should prioritize structure over spontaneity.",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "In professional settings, brevity should be valued over completeness.",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Acknowledge counterarguments only after your core argument is clear.",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Storytelling should be secondary to logical sequencing in persuasive speech.",
+      "category": "CLARITY",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Nuance improves credibility even when it reduces rhetorical impact.",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Precision in language is more important than emotional resonance.",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "The best communicators optimize for listener understanding, not speaker expression.",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "In complex topics, simplified explanations often do more harm than good.",
+      "category": "CLARITY",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Schools should teach practical life skills before advanced theory.",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "Public transport should be free in major cities.",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "People should need a license before owning a pet.",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "News apps should limit daily breaking news alerts.",
+      "category": "MIXED",
+      "difficulty": "EASY"
+    },
+    {
+      "text": "AI tools should be required in most knowledge-work jobs.",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Universities should remove standardized test requirements permanently.",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Governments should reward low-carbon lifestyles with tax credits.",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Streaming services should have limits on autoplay by default.",
+      "category": "MIXED",
+      "difficulty": "MEDIUM"
+    },
+    {
+      "text": "Governments should regulate social media algorithms like public utilities.",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Universal basic income should replace most welfare programs.",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Facial recognition in public should be banned entirely.",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    },
+    {
+      "text": "Nations should prioritize climate targets over short-term economic growth.",
+      "category": "MIXED",
+      "difficulty": "HARD"
+    }
   ]
 }
